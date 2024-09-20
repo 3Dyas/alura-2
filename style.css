@@ -1,0 +1,34 @@
+/* Yasmin Batista - 3D - 19/09/2024 */
+body {
+  background-color: rgb(148, 15, 82);
+  color: white;
+  font-family: "Gowun Batang", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  margin: 0;
+}
+
+button {
+  background-color: rgb(225, 148, 190);
+  color: black;
+  font-family: "Gowun Batang", serif;
+}
+
+.passo {
+  display: none;
+}
+
+.passo.ativo {
+  display: block;
+}
+
+main {
+  text-align: center;
+  max-width: 90%;
+}
+
+img {
+  max-width: 90%;
+}
